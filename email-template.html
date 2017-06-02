@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Responsive Email Template</title>
+<!--
+
+    An email present from your friends at Litmus (@litmusapp)
+
+    Email is surprisingly hard. While this has been thoroughly tested, your mileage may vary.
+    It's highly recommended that you test using a service like Litmus (http://litmus.com) and your own devices.
+
+    Enjoy!
+
+ -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace: 0pt; mso-table-rspace: 0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode: bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    img{border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none;}
+    table{border-collapse: collapse !important;}
+    body{height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important;}
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+    }
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 525px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        .wrapper {
+          width: 100% !important;
+        	max-width: 100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        .logo img {
+          margin: 0 auto !important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        .mobile-hide {
+          display: none !important;
+        }
+
+        .img-max {
+          max-width: 100% !important;
+          width: 100% !important;
+          height: auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        .responsive-table {
+          width: 100% !important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        .padding {
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        .padding-meta {
+          padding: 30px 5% 0px 5% !important;
+          text-align: center;
+        }
+
+        .padding-copy {
+     		padding: 10px 5% 10px 5% !important;
+          text-align: center;
+        }
+
+        .no-padding {
+          padding: 0 !important;
+        }
+
+        .section-padding {
+          padding: 50px 15px 50px 15px !important;
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        .mobile-button-container {
+            margin: 0 auto;
+            width: 100% !important;
+        }
+
+        .mobile-button {
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+            display: block !important;
+        }
+
+    }
+
+    /* ANDROID CENTER FIX */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+</style>
+<!--[if gte mso 12]>
+<style type="text/css">
+.mso-right {
+	padding-left: 20px;
+}
+</style>
+<![endif]-->
+</head>
+<body style="margin: 0 !important; padding: 0 !important;">
+
+<!-- HIDDEN PREHEADER TEXT -->
+<div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    Entice the open with some amazing preheader text. Use a little mystery and get those subscribers to read through...
+</div>
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr><td bgcolor="#000000" align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px;" class="wrapper">
+            <tr><td align="center" valign="top" style="padding: 15px 0;" class="logo">
+                <!-- Header Logo Goes Here -->
+                <a href="http://youiiapp.com/" target="_blank"><img alt="Logo" src="img/logo-2.png" width="60" height="60" style="display: block; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px;" border="0"></a>
+            </td></tr>
+        </table>
+    </td></tr>
+
+    <!-- Main Promo Image (500x300) w/ Apple and Android Icon links to the app store. -->
+    <tr><td bgcolor="#00dbd8" align="center" style="padding: 15px 15px 15px 15px;" class="section-padding">
+            <!-- MAIN IMAGE (500px by 300 px) -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                
+                <!--IMAGE HERE-->
+                <tr><td align="center" class="padding">
+                    <img src="img/cover-template-image.png" width="500" height="300" border="0" alt="Insert alt text here" style="display: block; padding: 0; color: #266e9c;" class="img-max">
+                 </td></tr>
+                
+                <!-- Available in Google and Apple App Stores-->
+                <tr><td align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr><img src="img/available.jpg" border="0" style="display: block; padding: 0; color: #266e9c;" class="img-max"></tr>
+                        <td align="center">
+                        <!-- Apple Icon and Link to App in Apple Store-->
+                        <a href="https://itunes.apple.com/us/app/youii/id1156911141?mt=8" target= "_blank"><img src="img/apple-icon.jpg" border="0" style="display: inline; padding-right: 5px; color: #266e9c;"></a>
+                        <!-- Android Icon and Link to App in Google Play Store-->
+                        <a href = "https://play.google.com/store/apps/details?id=com.yoouii" target="_blank"><img src="img/android-icon.jpg" border="0" style="display: inline; padding-left: 5px; color: #266e9c; text-decoration: none;"></a>
+                         </td>
+                 </table></td></tr>
+            </table>
+    </td></tr>
+
+    <!--HIGHLIGHt #1 -->
+    <tr><td bgcolor="#ffffff" align="center" style="padding: 25px 25px 25px 25px;" class="section-padding">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="500" style="padding:0 0 20px 0;" class="responsive-table">
+            
+            <!--HIGHLIIGHT: Text on right side; Image on left side-->
+            <tr><td align="center" height="100%" valign="top" width="100%" style="padding-bottom: 35px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500;">
+                    
+                    <tr><td align="center" valign="top" style="font-size:0;">
+                    
+                        <!--IMAGE-->
+                        <div style="display:inline-block; margin: 0 -2px; max-width:150px; vertical-align:top; width:100%;">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="150">
+                                <!--Image icon for highlight goes here-->
+                                <tr><td valign="top"><img src="img/highlight-template-image.png" alt="alt text here" width="150" height="200" border="0" style="display: block; font-family: Arial; color: #266e9c; font-size: 14px;"></td></tr>
+                            </table>
+                        </div>
+
+                        <!-- TEXT -->                        
+                        <div style="display:inline-block; margin: 0 -2px; max-width:350px; vertical-align:top; width:100%;" class="wrapper">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 325px; float: right;" class="wrapper">
+                                <tr><td style="padding: 40px 0 0 0;" class="no-padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <!-- Highlight Title -->
+                                        <tr><td align="left" style="padding: 0 0 5px 0; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding-copy">Highlight A</td></tr>
+                                        <!-- Highlight description -->
+                                        <tr><td align="left" style="padding: 10px 0 15px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">: Text on right side; Image on left side. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.</td></tr>
+                                    </table>
+                                </td></tr>
+                            </table>
+                        </div>
+
+                    </td></tr>
+                </table>
+            </td></tr>
+        
+            <!--HIGHLIIGHT: Text on left side; Image on right side-->
+            <tr><td align="center" height="100%" valign="top" width="100%" style="padding-bottom: 35px;">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:500;">
+                    <tr><td align="center" valign="top" style="font-size:0;" dir="rtl">       
+                                
+                        <!--IMAGE-->
+                        <div style="display:inline-block; margin: 0 -2px; max-width:150px; vertical-align:top; width:100%;" dir="ltr">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="150">
+                                <tr><td valign="top"><img src="img/highlight-template-image.png" alt="alt text here" width="150" height="200" border="0" style="display: block; font-family: Arial; color: #666666; font-size: 14px;"></td></tr>
+                            </table>
+                        </div>
+
+                        <!--TEXT-->
+                        <div style="display:inline-block; margin: 0 -2px; max-width:350px; vertical-align:top; width:100%;" dir="ltr">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 325px;">
+                                <tr><td style="padding: 40px 0 0 0;" class="no-padding">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                        <!-- Highlight Title -->
+                                        <tr><td align="left" style="padding: 0 0 5px 0; font-size: 22px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; color: #333333;" class="padding-copy">Highlght B</td></tr>
+                                        <!-- Highlight description -->
+                                        <tr><td align="left" style="padding: 10px 0 15px 0; font-size: 16px; line-height: 24px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">Text on left side; Image on right side. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.</td></tr>
+                                    </table>
+                                </td></tr>
+                            </table>
+                        </div>
+
+                     </td></tr>
+                </table>
+            </td></tr>
+
+            <!--CAN ADD MORE HIGHLIHTS HERE-->
+            
+
+
+        </table>
+    </td></tr>
+
+
+
+    <tr><td bgcolor="#ffffff" align="center" style="padding: 25px 25px 25px 25px;" class="section-padding">
+        <table align="center" border="0" cellpadding="0" cellspacing="0" width="500" class="responsive-table">
+            <tr><td><table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    
+                    <tr><td>
+                        <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr><td align="center" style="font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #333333; padding-top: 30px;" class="padding-copy">Learn More (Footer)</td></tr>
+                            <tr><td align="center" style="padding: 20px 0 0 0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">"Learn More" link below goes to Youiiapp.com. <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, leo a ullamcorper feugiat, ante purus sodales justo, a faucibus libero lacus a est. Aenean at mollis ipsum.</td></tr>
+                        </table>
+                    </td></tr>
+
+                            
+                    <tr><td align="center">
+                        <!-- Learn more button -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr><td align="center" style="padding-top: 25px;" class="padding">
+                                <table border="0" cellspacing="0" cellpadding="0" class="mobile-button-container">
+                                    <tr><td align="center" style="border-radius: 3px;" bgcolor="#256F9C"><a href="http://youiiapp.com/" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; border-radius: 3px; padding: 15px 25px; border: 1px solid #256F9C; display: inline-block;" class="mobile-button">Learn More &rarr;</a></td></tr>
+                                </table>
+                            </td></tr>
+                        </table>
+                    </td></tr>
+
+            </table></td></tr>
+        </table>
+    </td></tr>
+
+    <!--FOOTER-->
+    <tr><td bgcolor="#ffffff" align="center" style="padding: 20px 0px;">=
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="max-width: 500px;" class="responsive-table">
+            <tr><td align="center" style="font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, sans-serif; color:#666666;">
+                Address: 1234 Main Street, Anywhere, MA 01234, USA
+                <br>
+                <!--UNSUBSCRIBE LINK (needs implementation)-->
+                    <!--a href="http://youiiapp.com" target="_blank" style="color: #666666; text-decoration: none;">Unsubscribe (?)</a-->
+                    Unsubscribe
+                <span style="font-family: Arial, sans-serif; font-size: 12px; color: #444444;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                <!--VIEW E-MAIL IN BROWSER LINK (needs implementation)-->
+                    <!--a href="http://youiiapp.com" target="_blank" style="color: #666666; text-decoration: none;">View this email in your browser</a-->
+                    View this E-mail In your browser
+            </td></tr>
+        </table>
+    </td></tr>
+</table>
+</body>
+</html>
